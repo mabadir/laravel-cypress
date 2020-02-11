@@ -1,0 +1,34 @@
+{
+    "name": "mabadir/laravel-cypress",
+    "description": "Library to bootstrap Cypress testing in Laravel",
+    "type": "library",
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mina Abadir",
+            "email": "mina@abadir.email"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mabadir\\LaravelCypress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mabadir\\LaravelCypress\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mabadir\\LaravelCypress\\LaravelCypressServiceProvider"
+            ]
+        }
+    }
+}
