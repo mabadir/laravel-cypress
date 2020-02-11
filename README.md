@@ -1,4 +1,4 @@
-# Laravel Cypress 🛰
+# Laravel Cypress ☄️
 
 
 Easily Bootstrap your Laravel application with Cypress helpers to get you up and running with Cypress testing quickly.
